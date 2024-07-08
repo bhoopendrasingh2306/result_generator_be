@@ -4,9 +4,8 @@ const app = express();
 const cors = require("cors");
 const fileUpload = require("express-fileupload");
 var bodyParser = require("body-parser");
-const pool = require("./db/config");
 
-require("dotenv").config({ path: ".env" });
+require("dotenv").config();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

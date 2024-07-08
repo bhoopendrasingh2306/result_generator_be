@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+mongodb+srv://bhoopendrasingh2306:bhoopendra@cluster0.cng1qah.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
