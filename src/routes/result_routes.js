@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-require("../db/config");
 const student = require("../db/student");
 const universityDb = require("../db/university");
 const marksDb = require("../db/marks");

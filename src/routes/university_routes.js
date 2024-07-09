@@ -3,7 +3,6 @@ const bcrypt = require("bcrypt");
 const validator = require("validator");
 const passwordValidator = require("password-validator");
 const router = express.Router();
-require("../db/config");
 const universityDB = require("../db/university");
 const studentDB = require("../db/student");
 const jwt = require("jsonwebtoken");

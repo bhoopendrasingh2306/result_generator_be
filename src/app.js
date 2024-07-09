@@ -6,6 +6,7 @@ const fileUpload = require("express-fileupload");
 var bodyParser = require("body-parser");
 
 require("dotenv").config();
+require("./db/config");
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
