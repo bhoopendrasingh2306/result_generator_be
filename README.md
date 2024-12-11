@@ -1,1 +1,1 @@
-Live Link : https://result-generator-fe.onrender.com 
+Live Link : https://result-generator-fe.vercel.app/
